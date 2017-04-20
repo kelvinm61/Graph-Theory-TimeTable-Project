@@ -298,3 +298,121 @@ Storage files: (filename : modification date - size)
 2017-04-20 10:43:18.264+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
 2017-04-20 10:43:21.999+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 3634ms.
 2017-04-20 10:43:23.052+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 852ms.
+2017-04-20 10:44:09.295+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [4]:  Starting check pointing...
+2017-04-20 10:44:09.295+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [4]:  Starting store flush...
+2017-04-20 10:44:09.306+0000 INFO  [o.n.k.i.s.c.CountsTracker] About to rotate counts store at transaction 4 to [/Users/kelvin2/Documents/Neo4j/GraphTheory.graphdb/neostore.counts.db.b], from [/Users/kelvin2/Documents/Neo4j/GraphTheory.graphdb/neostore.counts.db.a].
+2017-04-20 10:44:09.308+0000 INFO  [o.n.k.i.s.c.CountsTracker] Successfully rotated counts store at transaction 4 to [/Users/kelvin2/Documents/Neo4j/GraphTheory.graphdb/neostore.counts.db.b], from [/Users/kelvin2/Documents/Neo4j/GraphTheory.graphdb/neostore.counts.db.a].
+2017-04-20 10:44:09.316+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [4]:  Store flush completed
+2017-04-20 10:44:09.316+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [4]:  Starting appending check point entry into the tx log...
+2017-04-20 10:44:09.317+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [4]:  Appending check point entry into the tx log completed
+2017-04-20 10:44:09.317+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [4]:  Check pointing completed
+2017-04-20 10:44:09.317+0000 INFO  [o.n.k.i.t.l.p.LogPruningImpl] Log Rotation [0]:  Starting log pruning.
+2017-04-20 10:44:09.317+0000 INFO  [o.n.k.i.t.l.p.LogPruningImpl] Log Rotation [0]:  Log pruning complete.
+2017-04-20 10:44:41.678+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-20 10:44:48.491+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 6693ms.
+2017-04-20 10:44:58.592+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-20 10:45:00.010+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 1318ms.
+2017-04-20 10:47:10.643+0000 INFO  [o.n.c.i.ExecutionEngine] Discarded stale query from the query cache: CALL db.labels() YIELD label
+WITH COLLECT(label) AS labels
+RETURN 'labels' as a, labels as result
+UNION
+CALL db.relationshipTypes() YIELD relationshipType
+WITH COLLECT(relationshipType) AS relationshipTypes
+RETURN 'relationshipTypes'as a, relationshipTypes as result
+UNION
+CALL db.propertyKeys() YIELD propertyKey
+WITH COLLECT(propertyKey) AS propertyKeys
+RETURN 'propertyKeys' as a, propertyKeys as result
+2017-04-20 10:47:10.657+0000 INFO  [o.n.c.i.CypherCompiler] Discarded stale query from the query cache: CALL db.labels() YIELD label
+WITH COLLECT(label) AS labels
+RETURN 'labels' as a, labels as result
+UNION
+CALL db.relationshipTypes() YIELD relationshipType
+WITH COLLECT(relationshipType) AS relationshipTypes
+RETURN 'relationshipTypes'as a, relationshipTypes as result
+UNION
+CALL db.propertyKeys() YIELD propertyKey
+WITH COLLECT(propertyKey) AS propertyKeys
+RETURN 'propertyKeys' as a, propertyKeys as result
+2017-04-20 10:47:16.450+0000 INFO  [o.n.c.i.CypherCompiler] Discarded stale query from the query cache: CREATE (d:days  {dayName: "Friday"}) return d
+2017-04-20 10:47:20.336+0000 INFO  [o.n.c.i.ExecutionEngine] Discarded stale query from the query cache: MATCH (a)-[r]->(b) WHERE id(a) IN {node_ids}
+AND id(b) IN {new_node_ids}
+RETURN r;
+2017-04-20 10:47:20.339+0000 INFO  [o.n.c.i.CypherCompiler] Discarded stale query from the query cache: MATCH (a)-[r]->(b) WHERE id(a) IN {node_ids}
+AND id(b) IN {new_node_ids}
+RETURN r;
+2017-04-20 10:49:11.619+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-20 10:49:13.279+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [11]:  Starting check pointing...
+2017-04-20 10:49:13.279+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [11]:  Starting store flush...
+2017-04-20 10:49:13.339+0000 INFO  [o.n.k.i.s.c.CountsTracker] About to rotate counts store at transaction 11 to [/Users/kelvin2/Documents/Neo4j/GraphTheory.graphdb/neostore.counts.db.a], from [/Users/kelvin2/Documents/Neo4j/GraphTheory.graphdb/neostore.counts.db.b].
+2017-04-20 10:49:13.397+0000 INFO  [o.n.k.i.s.c.CountsTracker] Successfully rotated counts store at transaction 11 to [/Users/kelvin2/Documents/Neo4j/GraphTheory.graphdb/neostore.counts.db.a], from [/Users/kelvin2/Documents/Neo4j/GraphTheory.graphdb/neostore.counts.db.b].
+2017-04-20 10:49:13.469+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [11]:  Store flush completed
+2017-04-20 10:49:13.469+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [11]:  Starting appending check point entry into the tx log...
+2017-04-20 10:49:13.470+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [11]:  Appending check point entry into the tx log completed
+2017-04-20 10:49:13.470+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [11]:  Check pointing completed
+2017-04-20 10:49:13.470+0000 INFO  [o.n.k.i.t.l.p.LogPruningImpl] Log Rotation [0]:  Starting log pruning.
+2017-04-20 10:49:13.470+0000 INFO  [o.n.k.i.t.l.p.LogPruningImpl] Log Rotation [0]:  Log pruning complete.
+2017-04-20 10:49:14.651+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 2859ms.
+2017-04-20 10:49:15.310+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 559ms.
+2017-04-20 10:49:24.399+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 8656ms.
+2017-04-20 10:49:34.734+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-20 10:49:44.834+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-20 10:49:48.571+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 3636ms.
+2017-04-20 10:49:51.870+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 2851ms.
+2017-04-20 10:49:54.494+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 2324ms.
+2017-04-20 10:49:57.197+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 2502ms.
+2017-04-20 10:49:57.716+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 418ms.
+2017-04-20 10:49:59.981+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 1921ms.
+2017-04-20 10:50:41.831+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-20 10:50:48.271+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 6275ms.
+2017-04-20 10:50:58.371+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-20 10:51:00.008+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 1536ms.
+2017-04-20 10:52:23.443+0000 INFO  [o.n.c.i.ExecutionEngine] Discarded stale query from the query cache: EXPLAIN MATCH (n:collegeCourse { courseName: "BSc Computing & Software Development"}), (d:days { dayName: "Monday"}) CREATE (n)-[:Days]->(d)
+2017-04-20 10:52:23.471+0000 INFO  [o.n.c.i.CypherCompiler] Discarded stale query from the query cache: MATCH (n:collegeCourse { courseName: "BSc Computing & Software Development"}), (d:days { dayName: "Monday"}) CREATE (n)-[:Days]->(d)
+2017-04-20 10:52:41.326+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-20 10:52:42.329+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 902ms.
+2017-04-20 10:52:52.717+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-20 10:53:01.261+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 8443ms.
+2017-04-20 10:53:02.279+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 817ms.
+2017-04-20 10:53:03.261+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 781ms.
+2017-04-20 10:53:03.787+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 325ms.
+2017-04-20 10:53:04.562+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 574ms.
+2017-04-20 10:53:06.364+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 352ms.
+2017-04-20 10:53:07.123+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 558ms.
+2017-04-20 10:53:07.733+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 409ms.
+2017-04-20 10:53:13.179+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 4222ms.
+2017-04-20 10:53:13.556+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 276ms.
+2017-04-20 10:53:16.326+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 2670ms.
+2017-04-20 10:53:18.229+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 1603ms.
+2017-04-20 10:53:52.300+0000 INFO  [o.n.c.i.CypherCompiler] Discarded stale query from the query cache: CREATE (n:collegeCourse  {courseName: "BSc Computing in Software Development"}) return n
+2017-04-20 10:54:16.339+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [13]:  Starting check pointing...
+2017-04-20 10:54:16.340+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [13]:  Starting store flush...
+2017-04-20 10:54:16.402+0000 INFO  [o.n.k.i.s.c.CountsTracker] About to rotate counts store at transaction 13 to [/Users/kelvin2/Documents/Neo4j/GraphTheory.graphdb/neostore.counts.db.b], from [/Users/kelvin2/Documents/Neo4j/GraphTheory.graphdb/neostore.counts.db.a].
+2017-04-20 10:54:16.451+0000 INFO  [o.n.k.i.s.c.CountsTracker] Successfully rotated counts store at transaction 13 to [/Users/kelvin2/Documents/Neo4j/GraphTheory.graphdb/neostore.counts.db.b], from [/Users/kelvin2/Documents/Neo4j/GraphTheory.graphdb/neostore.counts.db.a].
+2017-04-20 10:54:16.493+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [13]:  Store flush completed
+2017-04-20 10:54:16.493+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [13]:  Starting appending check point entry into the tx log...
+2017-04-20 10:54:16.494+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [13]:  Appending check point entry into the tx log completed
+2017-04-20 10:54:16.494+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [13]:  Check pointing completed
+2017-04-20 10:54:16.495+0000 INFO  [o.n.k.i.t.l.p.LogPruningImpl] Log Rotation [0]:  Starting log pruning.
+2017-04-20 10:54:16.495+0000 INFO  [o.n.k.i.t.l.p.LogPruningImpl] Log Rotation [0]:  Log pruning complete.
+2017-04-20 10:54:27.734+0000 INFO  [o.n.c.i.ExecutionEngine] Discarded stale query from the query cache: EXPLAIN CREATE (d:days  {dayName: "Thursday"}) return d
+2017-04-20 10:54:28.215+0000 INFO  [o.n.c.i.ExecutionEngine] Discarded stale query from the query cache: EXPLAIN CREATE (d:days  {dayName: "Wednesday"}) return d
+2017-04-20 10:56:11.806+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-20 10:56:14.597+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 2617ms.
+2017-04-20 10:56:15.650+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 206ms.
+2017-04-20 10:56:17.018+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 570ms.
+2017-04-20 10:56:17.449+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 231ms.
+2017-04-20 10:56:18.676+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 277ms.
+2017-04-20 10:56:22.271+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 3493ms.
+2017-04-20 10:57:34.097+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 2296ms.
+2017-04-20 10:57:36.166+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 1778ms.
+2017-04-20 10:57:36.247+0000 INFO  [o.n.c.i.ExecutionEngine] Discarded stale query from the query cache: MATCH (n:days) RETURN n LIMIT 25
+2017-04-20 10:57:36.248+0000 INFO  [o.n.c.i.CypherCompiler] Discarded stale query from the query cache: MATCH (n:days) RETURN n LIMIT 25
+2017-04-20 10:57:36.329+0000 INFO  [o.n.c.i.ExecutionEngine] Discarded stale query from the query cache: MATCH (a)-[r]->(b) WHERE id(a) IN {node_ids}
+AND id(b) IN {new_node_ids}
+RETURN r;
+2017-04-20 10:57:36.331+0000 INFO  [o.n.c.i.CypherCompiler] Discarded stale query from the query cache: MATCH (a)-[r]->(b) WHERE id(a) IN {node_ids}
+AND id(b) IN {new_node_ids}
+RETURN r;
+2017-04-20 10:57:40.385+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 3892ms.
+2017-04-20 10:57:44.612+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 3887ms.
