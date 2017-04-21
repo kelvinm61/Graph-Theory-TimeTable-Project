@@ -2891,3 +2891,90 @@ RETURN r;
 2017-04-20 14:56:12.948+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [235]:  Check pointing completed
 2017-04-20 14:56:12.948+0000 INFO  [o.n.k.i.t.l.p.LogPruningImpl] Log Rotation [0]:  Starting log pruning.
 2017-04-20 14:56:12.948+0000 INFO  [o.n.k.i.t.l.p.LogPruningImpl] Log Rotation [0]:  Log pruning complete.
+2017-04-20 14:59:35.915+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-20 14:59:46.016+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-20 14:59:48.800+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 2684ms.
+2017-04-20 14:59:49.761+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 535ms.
+2017-04-21 09:11:27.278+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [241]:  Starting check pointing...
+2017-04-21 09:11:27.278+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [241]:  Starting store flush...
+2017-04-21 09:11:27.279+0000 INFO  [o.n.k.i.s.c.CountsTracker] About to rotate counts store at transaction 241 to [/Users/kelvin2/Documents/Neo4j/GraphTheory.graphdb/neostore.counts.db.b], from [/Users/kelvin2/Documents/Neo4j/GraphTheory.graphdb/neostore.counts.db.a].
+2017-04-21 09:11:27.279+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 156968ms.
+2017-04-21 09:11:30.520+0000 INFO  [o.n.k.i.s.c.CountsTracker] Successfully rotated counts store at transaction 241 to [/Users/kelvin2/Documents/Neo4j/GraphTheory.graphdb/neostore.counts.db.b], from [/Users/kelvin2/Documents/Neo4j/GraphTheory.graphdb/neostore.counts.db.a].
+2017-04-21 09:11:31.342+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [241]:  Store flush completed
+2017-04-21 09:11:31.342+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [241]:  Starting appending check point entry into the tx log...
+2017-04-21 09:11:31.358+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [241]:  Appending check point entry into the tx log completed
+2017-04-21 09:11:31.358+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [241]:  Check pointing completed
+2017-04-21 09:11:31.358+0000 INFO  [o.n.k.i.t.l.p.LogPruningImpl] Log Rotation [0]:  Starting log pruning.
+2017-04-21 09:11:31.358+0000 INFO  [o.n.k.i.t.l.p.LogPruningImpl] Log Rotation [0]:  Log pruning complete.
+2017-04-21 09:12:59.598+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 903ms.
+2017-04-21 09:13:09.951+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-21 09:13:20.220+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 9940ms.
+2017-04-21 09:13:20.586+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 266ms.
+2017-04-21 09:13:27.000+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 6213ms.
+2017-04-21 09:13:30.988+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 2548ms.
+2017-04-21 09:13:41.088+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-21 09:13:43.439+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 2250ms.
+2017-04-21 09:13:53.640+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-21 09:14:03.740+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-21 09:14:05.496+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 1656ms.
+2017-04-21 09:14:16.534+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 9832ms.
+2017-04-21 09:14:17.024+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 288ms.
+2017-04-21 09:14:26.343+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 7305ms.
+2017-04-21 09:14:27.668+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 298ms.
+2017-04-21 09:14:30.488+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 2510ms.
+2017-04-21 09:14:30.911+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 222ms.
+2017-04-21 09:14:34.613+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 3601ms.
+2017-04-21 09:14:36.664+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 1850ms.
+2017-04-21 09:14:37.451+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 357ms.
+2017-04-21 09:14:40.775+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 3124ms.
+2017-04-21 09:14:41.698+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 722ms.
+2017-04-21 09:14:42.763+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 864ms.
+2017-04-21 09:14:43.656+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 793ms.
+2017-04-21 09:14:49.821+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 5691ms.
+2017-04-21 09:16:16.893+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-21 09:16:23.360+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 6366ms.
+2017-04-21 09:16:33.460+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-21 09:16:43.560+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-21 09:16:53.525+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 9864ms.
+2017-04-21 09:16:59.341+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 5716ms.
+2017-04-21 09:17:00.007+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 465ms.
+2017-04-21 09:19:09.217+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 3006ms.
+2017-04-21 09:19:10.132+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 815ms.
+2017-04-21 09:19:20.565+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-21 09:19:21.908+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 1242ms.
+2017-04-21 09:19:27.061+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 4952ms.
+2017-04-21 09:21:51.933+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [242]:  Starting check pointing...
+2017-04-21 09:21:51.933+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [242]:  Starting store flush...
+2017-04-21 09:21:51.934+0000 INFO  [o.n.k.i.s.c.CountsTracker] About to rotate counts store at transaction 242 to [/Users/kelvin2/Documents/Neo4j/GraphTheory.graphdb/neostore.counts.db.a], from [/Users/kelvin2/Documents/Neo4j/GraphTheory.graphdb/neostore.counts.db.b].
+2017-04-21 09:21:51.936+0000 INFO  [o.n.k.i.s.c.CountsTracker] Successfully rotated counts store at transaction 242 to [/Users/kelvin2/Documents/Neo4j/GraphTheory.graphdb/neostore.counts.db.a], from [/Users/kelvin2/Documents/Neo4j/GraphTheory.graphdb/neostore.counts.db.b].
+2017-04-21 09:21:51.940+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [242]:  Store flush completed
+2017-04-21 09:21:51.940+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [242]:  Starting appending check point entry into the tx log...
+2017-04-21 09:21:51.941+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [242]:  Appending check point entry into the tx log completed
+2017-04-21 09:21:51.941+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [242]:  Check pointing completed
+2017-04-21 09:21:51.941+0000 INFO  [o.n.k.i.t.l.p.LogPruningImpl] Log Rotation [0]:  Starting log pruning.
+2017-04-21 09:21:51.941+0000 INFO  [o.n.k.i.t.l.p.LogPruningImpl] Log Rotation [0]:  Log pruning complete.
+2017-04-21 09:24:39.862+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 2905ms.
+2017-04-21 09:26:10.053+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 3091ms.
+2017-04-21 09:26:11.280+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 1026ms.
+2017-04-21 09:26:11.863+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 383ms.
+2017-04-21 09:26:13.880+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 1554ms.
+2017-04-21 09:26:14.965+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 884ms.
+2017-04-21 09:26:22.528+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 7330ms.
+2017-04-21 09:26:22.989+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 260ms.
+2017-04-21 09:26:24.601+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 1133ms.
+2017-04-21 09:26:26.273+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 907ms.
+2017-04-21 09:26:26.741+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 267ms.
+2017-04-21 09:26:29.630+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 2688ms.
+2017-04-21 09:26:30.207+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 376ms.
+2017-04-21 09:26:30.894+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 487ms.
+2017-04-21 09:26:32.043+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 373ms.
+2017-04-21 09:26:52.536+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [254]:  Starting check pointing...
+2017-04-21 09:26:52.536+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [254]:  Starting store flush...
+2017-04-21 09:26:52.537+0000 INFO  [o.n.k.i.s.c.CountsTracker] About to rotate counts store at transaction 254 to [/Users/kelvin2/Documents/Neo4j/GraphTheory.graphdb/neostore.counts.db.b], from [/Users/kelvin2/Documents/Neo4j/GraphTheory.graphdb/neostore.counts.db.a].
+2017-04-21 09:26:52.540+0000 INFO  [o.n.k.i.s.c.CountsTracker] Successfully rotated counts store at transaction 254 to [/Users/kelvin2/Documents/Neo4j/GraphTheory.graphdb/neostore.counts.db.b], from [/Users/kelvin2/Documents/Neo4j/GraphTheory.graphdb/neostore.counts.db.a].
+2017-04-21 09:26:52.544+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [254]:  Store flush completed
+2017-04-21 09:26:52.544+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [254]:  Starting appending check point entry into the tx log...
+2017-04-21 09:26:52.544+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [254]:  Appending check point entry into the tx log completed
+2017-04-21 09:26:52.544+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [254]:  Check pointing completed
+2017-04-21 09:26:52.545+0000 INFO  [o.n.k.i.t.l.p.LogPruningImpl] Log Rotation [0]:  Starting log pruning.
+2017-04-21 09:26:52.545+0000 INFO  [o.n.k.i.t.l.p.LogPruningImpl] Log Rotation [0]:  Log pruning complete.
